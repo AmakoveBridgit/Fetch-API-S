@@ -1,6 +1,6 @@
 
   
-   function generateProductCards(data) {
+   function getProduct(data) {
     const productContainer = document.getElementById("products");
     data.forEach((product) => {
       const card = document.createElement("div");
@@ -16,15 +16,15 @@
       productContainer.appendChild(card);
     });
   }
-  function fetchProducts() {
+  function displayProducts() {
     fetch("https://dummyjson.com/products")
       .then((response) => response.json())
       .then((data) => {
-        const returnedData = data.products.slice(0, 10);
-        generateProductCards(returnedData);
+        const returnedData = data.products.slice(0, 6);
+        getProduct(returnedData);
     });
   }
-  fetchProducts()
+  displayProducts()
   
   
   
