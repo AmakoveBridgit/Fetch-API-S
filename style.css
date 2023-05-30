@@ -133,27 +133,30 @@ ul{
 }
 
 /* API's */
-/* .items{
-    display: flex;
-        border: solid wheat;
-    border-radius: 5px;
-    margin-bottom: 2%;
-    text-align: center;
-    
-} */
-#products{
+
+ #products{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-.items{
+     /* justify-content: space-evenly; */
+     gap: 10%;
+     background-color: bisque;
+     padding: 10px;
+    
+ }
+ #image{
+    width: 50%;
+    border-radius: 20%;
+    padding: 10px;
+
+ }
+/* .items{
     border: solid 3px green;
     border-radius: 60px;
     margin-bottom: 4%;
     text-align: center;
     width: 20%;height: 75vh;
     background-color: rgb(251, 253, 255);
-}
+} */ 
 
 
 
