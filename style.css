@@ -1,0 +1,240 @@
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    /* text-align: center; */
+    font-size: large;
+   padding: 10px;
+
+}
+#get{
+    color: blue;
+    font-weight: 500;
+}
+.navbar{
+    background-color: black;
+   
+}
+.gadget{
+    font-size: 70px;
+}
+.main{
+    background-image: url(comp.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+   background-size: cover;
+
+}
+.btn{
+ padding: 20px;
+ margin: 20px;
+
+}
+#btnn{
+    padding: 20px;
+    background-color:bisque;
+  
+
+}
+#btnnn{
+    padding: 20px;
+
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+   background-color: azure;
+   padding: 20px;
+   border: solid ghostwhite;
+   border-radius: 2%;
+   /* padding: 10px; */
+   margin: 10px;
+  
+}
+.atm{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 20px;
+    gap: 6%;
+
+   
+}
+#ima{
+    width: 45%;
+
+}
+#remote{
+    width: 40%;
+    margin-left: 50%;
+    /* margin-bottom: 80%; */
+
+}
+.phones{
+    background-color: papayawhip;
+    padding: 20px;
+
+    
+}
+#lev{
+    font-size: 50px;
+    padding-left: 20px;
+    margin: 20px;
+}
+#person{
+    width: 50%;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius:30% ;
+}
+#h{
+    width: 80%;
+   color: black;
+}
+#test{
+    font-size: 50px;
+    text-align: center;
+}
+#te{
+    text-align: center;
+}
+.testimonials{
+    display: flex;
+    padding: 50px;
+    /* margin: 40px; */
+    gap: 10%;
+}
+#para{
+    font-size: 20px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+   
+}
+.gad{
+    color: yellow;
+}
+.news{
+    display: flex;
+    justify-content: space-between;
+    background-color: azure;
+    margin: 20px;
+    padding: 30px;
+}
+#bt{
+    padding: 0 70px 0 70px;
+    border-radius: 50px;
+    font-size: large;
+    width:4%;
+}
+
+/* API's */
+/* .items{
+    display: flex;
+        border: solid wheat;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    text-align: center;
+    
+} */
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.items{
+    border: solid 3px green;
+    border-radius: 60px;
+    margin-bottom: 4%;
+    text-align: center;
+    width: 20%;height: 75vh;
+    background-color: rgb(251, 253, 255);
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+
+ ul{
+    font-size: small;
+ }
+ .main{
+   /* width: 10%; */
+   padding-left: 10%;
+   padding-top: 20%;
+ margin-right: 20%;
+
+ 
+ }
+ .foot{
+    /* margin-right: 10%; */
+    padding-right: 10%;
+    width: 50%;
+    gap: 10%;
+    margin-left: 5%;
+
+ }
+ .testimonials{
+    margin-right: 30%;
+ }
+ .gad{
+    color: rgb(68, 173, 48);
+}
+.news{
+    padding-right: 40%;
+    gap: 10%;
+}
+#bt{
+    padding: 10px 70px 70px 10px;
+}
+#para{
+    width: 100px;
+    padding-top: 80%;
+    text-align: center;
+  
+
+}
+#person{
+    padding-left: 40%;
+  padding-bottom: 70%;
+}
+#lev{
+    padding-right: 20%;
+}
+#remote{
+    padding-right: 30%;
+}
+#ima{
+    /* padding: 30%; */
+    flex-direction: row;
+
+}
+#agro{
+    padding-right: 60%;
+    padding-left: 20%;
+   margin-right: 20%;
+}
+#te{
+    padding-right: 10%;
+}
+.main {
+    
+}
+.atm{
+  align-items: center;
+    flex-direction: column;
+    padding-left: 10%;
+   /* justify-content: space-between; */
+}
+.icon{
+    padding-right:20% ;
+}
+
+}
